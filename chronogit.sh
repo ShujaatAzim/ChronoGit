@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Enter date (yyyy-mm-dd) [leave blank for today]: " INPUT_DATE
-read -p "Enter commit message: " COMMIT_MESSAGE
+read -p "Enter desired git date (yyyy-mm-dd): " INPUT_DATE
+read -p "Commit message: " COMMIT_MESSAGE
 
 if [ -z "$INPUT_DATE" ]; then
   FULL_DATE=$(date "+%Y-%m-%d %H:%M:%S")
