@@ -17,13 +17,13 @@ alias chronogit="$HOME/Scripts/chronogit.sh"
 ## Usage
 
 ```bash
-chronogit
+$ chronogit
 ```
 
 ```bash
 # example
-Enter date (yyyy-mm-dd) [leave blank for today]: 2025-01-01
-Commit message: Hello
+$ Enter date (yyyy-mm-dd) [leave blank for today]: 2025-01-01
+$ Commit message: Hello
 ```
 
 It will set the time of the commit at midnight of the entered date.
