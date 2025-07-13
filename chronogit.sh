@@ -12,6 +12,9 @@ fi
 export GIT_AUTHOR_DATE="$FULL_DATE"
 export GIT_COMMITTER_DATE="$FULL_DATE"
 
-git add .
+# Uncomment "git add ." if you want all your changes to be added to the commit.
+# Otherwise, only the staged changes will be committed.
+
+# git add .
 git commit -m "$COMMIT_MESSAGE"
 git push
