@@ -1,17 +1,19 @@
 # ChronoGit
 
-ChronoGit is a small BASH script that can be used to backdate git commits. It is for current/future commits, not previous ones (yet).
+ChronoGit is a small Bash script that can be used to backdate git commits. It is for current/future commits, not previous ones (yet).
 
-I made this while practicing BASH scripting, and it's a handy tool for having fun with Github's calendar, but I would advise NOT using it for any important projects/work where your commit history might be important!
+I made this while practicing Bash scripting, and it's a handy tool for having fun with Github's calendar, but I would advise NOT using it
+for any important projects/work where your commit history might be important!
 
 ## Setup
 
-Copy the code and put it somewhere in your $PATH. I use zsh, so I have this:
+Copy the code into a file, name it whatever you like, and put it somewhere in your $PATH. I have a folder in my home directory called Scripts
+and I use zsh, so mine looks like this:
 
 ```zsh
 #chronogit
 export PATH="$HOME/Scripts:$PATH"
-alias chronogit="$HOME/Scripts/chronogit.sh"
+alias chronogit="$HOME/Scripts/<your-file-name-here-with-extension>"
 ```
 
 ## Usage

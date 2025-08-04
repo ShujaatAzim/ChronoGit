@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if git diff --cached --quiet; then
+  echo "No staged changes detected. Please stage your changes with 'git add .' before chronogit."
+  exit 1
+fi
+
 read -p "Enter desired git date (yyyy-mm-dd): " INPUT_DATE
 read -p "Commit message: " COMMIT_MESSAGE
 
