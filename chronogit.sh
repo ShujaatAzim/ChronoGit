@@ -18,6 +18,7 @@ export GIT_AUTHOR_DATE="$FULL_DATE"
 export GIT_COMMITTER_DATE="$FULL_DATE"
 
 # Uncomment "git add ." if you want all your changes to be added to the commit.
+# If you do, be sure to comment out the first if block in this file.
 # Otherwise, only the staged changes will be committed.
 
 # git add .
