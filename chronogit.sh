@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if git diff --cached --quiet; then
-  echo "No staged changes detected. Please stage your changes with 'git add .' before chronogit."
+  echo "No staged changes detected. Please stage your changes with 'git add' before running chronogit."
   exit 1
 fi
 
